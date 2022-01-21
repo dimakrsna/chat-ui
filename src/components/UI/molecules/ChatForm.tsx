@@ -11,8 +11,12 @@ import {
 
 export const ChatForm = () => {
 
+  const onSubmit = (event) => {
+    event.preventDefault()
+  }
+
   return (
-    <ChatFormWrapper>
+    <ChatFormWrapper onSubmit={onSubmit}>
       <InputFile type="file" id="file-btn" />
       <InputWrapper>
         <TextareaAutosize placeholder='Napište zprávu' maxRows={4} />

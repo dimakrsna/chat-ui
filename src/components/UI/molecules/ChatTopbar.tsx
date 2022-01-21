@@ -10,7 +10,7 @@ export const ChatTopbar = () => (
   <ChatTopbarWrapper>
     <Avatar imagePath='https://picsum.photos/100/100'/>
     <ChatInfo>
-      <RecipientName>Skládka Recyklace s.r.o.</RecipientName>
+      <RecipientName className="topbar">Skládka Recyklace s.r.o.</RecipientName>
       <UserName>Martin Tuna</UserName>
     </ChatInfo>
   </ChatTopbarWrapper>

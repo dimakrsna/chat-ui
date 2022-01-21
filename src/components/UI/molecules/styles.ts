@@ -22,6 +22,10 @@ export const RecipientName = styled.div`
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+
+  &.topbar {
+    font-size: 1.125rem;
+  }
 `
 
 export const Time = styled.span`
